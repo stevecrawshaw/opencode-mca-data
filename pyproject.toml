@@ -1,7 +1,7 @@
 [project]
-name = "vs-code-setup"
+name = "data-etl-with-duckdb-and-polars"
 version = "0.1.0"
-description = "New VS code setup from template"
+description = "Data ETL project using DuckDB and Polars"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -12,6 +12,9 @@ dependencies = [
     "plotly",
     "pyyaml",
     "pyarrow",
+    "pyjanitor",
+    "requests",
+    "geopandas"
 ]
 
 [dependency-groups]
